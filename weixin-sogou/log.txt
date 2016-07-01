@@ -1,0 +1,57 @@
+
+Spider mode enabled. Check if remote file exists.
+--2016-04-26 11:38:59--  http://diameizi.diandian.com/
+Resolving diameizi.diandian.com... 113.31.26.67
+Connecting to diameizi.diandian.com|113.31.26.67|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Remote file exists and could contain links to other resources -- retrieving.
+
+--2016-04-26 11:39:01--  http://diameizi.diandian.com/
+Reusing existing connection to diameizi.diandian.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: `diameizi.diandian.com/index.html'
+
+     0K .......... .......... .......... .......... .......... 60.7K
+    50K .......... .......... .......... .......... .......... 57.4K
+   100K .......... .......... .......... .......... .......... 97.4K
+   150K .......... .....                                       39.8K=2.6s
+
+2016-04-26 11:39:04 (63.6 KB/s) - `diameizi.diandian.com/index.html' saved [169856]
+
+Loading robots.txt; please ignore errors.
+--2016-04-26 11:39:04--  http://diameizi.diandian.com/robots.txt
+Reusing existing connection to diameizi.diandian.com:80.
+HTTP request sent, awaiting response... 502 Bad Gateway
+2016-04-26 11:39:05 ERROR 502: Bad Gateway.
+
+Removing diameizi.diandian.com/index.html.
+
+Spider mode enabled. Check if remote file exists.
+--2016-04-26 11:39:05--  http://diameizi.diandian.com/&quot;http://m1.img.srcdd.com/farm5/2013/0124/23/DD6DD1EA2A1F2FBF15141F72BD7B9C438C062A7A0153B_500_167.GIF&quot;
+Reusing existing connection to diameizi.diandian.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+Remote file does not exist -- broken link!!!
+
+Spider mode enabled. Check if remote file exists.
+--2016-04-26 11:39:05--  http://diameizi.diandian.com/&quot;http://m2.img.srcdd.com/farm5/d/2015/0609/23/8FA5F72EA0B42727AE4BE40B42A01E0A_S64_64_64.jpeg&quot;
+Reusing existing connection to diameizi.diandian.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+Remote file does not exist -- broken link!!!
+
+Spider mode enabled. Check if remote file exists.
+--2016-04-26 11:39:06--  http://diameizi.diandian.com/&quot;http://m3.img.srcdd.com/farm3/d/2011/1215/13/D3E62DB058802CA5E2002AE07F6C3932_S64_64_64.JPEG&quot;
+Reusing existing connection to diameizi.diandian.com:80.
+HTTP request sent, awaiting response... 404 Not Found
+Remote file does not exist -- broken link!!!
+
+Found 3 broken links.
+
+http://diameizi.diandian.com/&quot;http://m2.img.srcdd.com/farm5/d/2015/0609/23/8FA5F72EA0B42727AE4BE40B42A01E0A_S64_64_64.jpeg&quot;
+http://diameizi.diandian.com/&quot;http://m3.img.srcdd.com/farm3/d/2011/1215/13/D3E62DB058802CA5E2002AE07F6C3932_S64_64_64.JPEG&quot;
+http://diameizi.diandian.com/&quot;http://m1.img.srcdd.com/farm5/2013/0124/23/DD6DD1EA2A1F2FBF15141F72BD7B9C438C062A7A0153B_500_167.GIF&quot;
+
+FINISHED --2016-04-26 11:39:06--
+Total wall clock time: 7.4s
+Downloaded: 1 files, 166K in 2.6s (63.6 KB/s)
